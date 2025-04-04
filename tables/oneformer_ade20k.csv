@@ -1,0 +1,4 @@
+Model,PQ,AP,mIoU
+OneFormer (Swin-L),49.8,35.9,57.0
+Mask2Former (Swin-L),48.7,34.3,56.3
+OneFormer (DiNAT-L),51.5,37.8,58.3

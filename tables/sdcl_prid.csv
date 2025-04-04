@@ -1,0 +1,4 @@
+Method,mAP,Rank-1,Rank-5
+Baseline (V),85.3,78.7,92.3
+SDCL (V+E),96.9,96.5,100.0
+Improvement,+11.6,+17.8,+7.7
