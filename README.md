@@ -20,6 +20,7 @@ This repository contains a comparative analysis of two cutting-edge papers from 
 - `utils.py`: Utility functions for data processing and visualization
 - `figures/`: Directory containing generated visualizations
 - `tables/`: Directory containing performance metric tables
+- `CITATION.md`: Information on how to cite this work
 
 ## Visualization Tools
 
@@ -58,6 +59,10 @@ python utils.py
 - Evaluating SDCL with real-world event data
 - Developing more efficient fusion techniques for multi-modal data
 - Expanding the use of event cameras in other video analysis tasks
+
+## Citation
+
+If you use this work in your research, please cite it as described in [CITATION.md](./CITATION.md).
 
 ## References
 
