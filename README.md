@@ -73,27 +73,24 @@ If you use this work in your research, please cite it as described in [CITATION.
 ## Key Visualizations
 
 ### Performance Comparison
-![Performance Comparison Chart](./figures/performance_comparison.png)
-*Figure 1: Performance comparison of OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.*
+> **Note:** Run `python visualize_comparison.py` to generate this visualization.
+>
+> Expected output: Performance comparison chart showing OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.
 
 ### Architecture Overview
 <div align="center">
 <table>
   <tr>
-    <td><img src="./figures/oneformer_architecture.png" alt="OneFormer Architecture" width="400"/></td>
-    <td><img src="./figures/sdcl_architecture.png" alt="SDCL Architecture" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center">OneFormer Architecture</td>
-    <td align="center">SDCL Architecture</td>
+    <td align="center"><b>OneFormer Architecture</b><br/>(Generate with visualization tools)</td>
+    <td align="center"><b>SDCL Architecture</b><br/>(Generate with visualization tools)</td>
   </tr>
 </table>
 </div>
-*Figure 2: High-level architecture diagrams for both analyzed approaches.*
 
 ### Qualitative Results
-![Qualitative Results](./figures/qualitative_results.png)
-*Figure 3: Qualitative results showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.*
+> **Note:** Run `python utils.py` to generate qualitative result visualizations.
+>
+> Expected output: Visual comparison showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.
 
 ## Performance Metrics
 
