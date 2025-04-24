@@ -78,16 +78,16 @@ If you use this work in your research, please cite it as described in [CITATION.
   <p><i>Figure 1: Performance comparison showing OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.</i></p>
 </div>
 
-### Architecture Overview
+### Radar Overview
 <div align="center">
 <table>
   <tr>
     <td align="center">
-      <img src="./figures/oneformer_architecture.png" alt="OneFormer Architecture" width="400"><br/>
+      <img src="./figures/oneformer_radar.png" alt="OneFormer Radar" width="400"><br/>
       <b>OneFormer Architecture</b>
     </td>
     <td align="center">
-      <img src="./figures/sdcl_architecture.png" alt="SDCL Architecture" width="400"><br/>
+      <img src="./figures/sdcl_radar.png" alt="SDCL Radar" width="400"><br/>
       <b>SDCL Architecture</b>
     </td>
   </tr>
@@ -95,9 +95,9 @@ If you use this work in your research, please cite it as described in [CITATION.
 <p><i>Figure 2: High-level architecture diagrams of the two analyzed methods.</i></p>
 </div>
 
-### Qualitative Results
+### Degradation Comparison
 <div align="center">
-  <img src="./figures/qualitative_results.png" alt="Qualitative results comparison" width="800">
+  <img src="./figures/degradation_comparison.png" alt="Degradation Comparison" width="800">
   <p><i>Figure 3: Visual comparison showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.</i></p>
 </div>
 
