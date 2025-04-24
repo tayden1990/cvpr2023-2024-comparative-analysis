@@ -72,33 +72,35 @@ If you use this work in your research, please cite it as described in [CITATION.
 
 ## Key Visualizations
 
+## Key Visualizations
+
 ### Performance Comparison
 <div align="center">
-  <img src="./figures/performance_comparison.png" alt="Performance comparison of OneFormer and SDCL methods" width="800">
-  <p><i>Figure 1: Performance comparison showing OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.</i></p>
+    <img src="./figures/performance_comparison.png" alt="Performance comparison of OneFormer and SDCL methods" width="800">
+    <p><i>Figure 1: Comparative performance metrics showing OneFormer's superiority in segmentation tasks and SDCL's advantages in challenging visual conditions for person re-identification.</i></p>
 </div>
 
-### Radar Overview
+### Method Capabilities
 <div align="center">
 <table>
-  <tr>
-    <td align="center">
-      <img src="./figures/oneformer_radar.png" alt="OneFormer Radar" width="400"><br/>
-      <b>OneFormer Architecture</b>
-    </td>
-    <td align="center">
-      <img src="./figures/sdcl_radar.png" alt="SDCL Radar" width="400"><br/>
-      <b>SDCL Architecture</b>
-    </td>
-  </tr>
+    <tr>
+        <td align="center">
+            <img src="./figures/oneformer_radar.png" alt="OneFormer Radar" width="400"><br/>
+            <b>OneFormer Capabilities</b>
+        </td>
+        <td align="center">
+            <img src="./figures/sdcl_radar.png" alt="SDCL Radar" width="400"><br/>
+            <b>SDCL Capabilities</b>
+        </td>
+    </tr>
 </table>
-<p><i>Figure 2: High-level architecture diagrams of the two analyzed methods.</i></p>
+<p><i>Figure 2: Radar charts illustrating the relative strengths of each method across multiple evaluation dimensions including accuracy, efficiency, and adaptability to different conditions.</i></p>
 </div>
 
-### Degradation Comparison
+### Visual Robustness Analysis
 <div align="center">
-  <img src="./figures/degradation_comparison.png" alt="Degradation Comparison" width="800">
-  <p><i>Figure 3: Visual comparison showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.</i></p>
+    <img src="./figures/degradation_comparison.png" alt="Degradation Comparison" width="800">
+    <p><i>Figure 3: Side-by-side comparison demonstrating OneFormer's consistent segmentation quality and SDCL's resilience in low-light, motion blur, and occlusion scenarios compared to conventional methods.</i></p>
 </div>
 
 ## Performance Metrics
