@@ -8,7 +8,7 @@ Postgraduate Student in Hematology and Blood Transfusion
 Department of Oncology, Hematology, and Radiotherapy,  
 Institute of Postgraduate Education,  
 Pirogov Russian National Research Medical University (RNRMU), Russia  
-Email: taher.akbarisaeed@gmail.com  
+Email: taherakbarisaeed@gmail.com  
 ORCID: https://orcid.org/0000-0002-9517-9773  
 GitHub: https://github.com/tayden1990
 
