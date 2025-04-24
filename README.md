@@ -73,38 +73,33 @@ If you use this work in your research, please cite it as described in [CITATION.
 ## Key Visualizations
 
 ### Performance Comparison
-**[Image Placeholder: Performance Comparison Chart]**
-
-*Figure 1: Performance comparison of OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.*
-
-> **Note:** Run `python visualize_comparison.py` to generate the visualization in `figures/performance_comparison.png`
+<div align="center">
+  <img src="./figures/performance_comparison.png" alt="Performance comparison of OneFormer and SDCL methods" width="800">
+  <p><i>Figure 1: Performance comparison showing OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.</i></p>
+</div>
 
 ### Architecture Overview
 <div align="center">
 <table>
   <tr>
     <td align="center">
-      <strong>OneFormer Architecture</strong><br/>
-      [Image placeholder - create using visualization tools]
+      <img src="./figures/oneformer_architecture.png" alt="OneFormer Architecture" width="400"><br/>
+      <b>OneFormer Architecture</b>
     </td>
     <td align="center">
-      <strong>SDCL Architecture</strong><br/>
-      [Image placeholder - create using visualization tools]
+      <img src="./figures/sdcl_architecture.png" alt="SDCL Architecture" width="400"><br/>
+      <b>SDCL Architecture</b>
     </td>
   </tr>
 </table>
+<p><i>Figure 2: High-level architecture diagrams of the two analyzed methods.</i></p>
 </div>
 
-*Figure 2: High-level architecture diagrams for both analyzed approaches.*
-
-> **Note:** Create architecture diagrams in `figures/oneformer_architecture.png` and `figures/sdcl_architecture.png`
-
 ### Qualitative Results
-**[Image Placeholder: Qualitative Results]**
-
-*Figure 3: Qualitative results showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.*
-
-> **Note:** Generate qualitative results visualization in `figures/qualitative_results.png`
+<div align="center">
+  <img src="./figures/qualitative_results.png" alt="Qualitative results comparison" width="800">
+  <p><i>Figure 3: Visual comparison showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.</i></p>
+</div>
 
 ## Performance Metrics
 
