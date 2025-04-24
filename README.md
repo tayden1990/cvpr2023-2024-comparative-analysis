@@ -1,8 +1,8 @@
 # Comparative Analysis of CVPR 2023 Papers
 
 <div align="center">
-  <a href="./CVPR%20Paper%20Comparative%20Analysis_.docx" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    📄 Read the Full Analysis Document
+  <a href="./CVPR%20Paper%20Comparative%20Analysis_.docx" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    💾 Download Full Analysis Document
   </a>
 </div>
 
