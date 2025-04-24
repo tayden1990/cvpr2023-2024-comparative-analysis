@@ -70,6 +70,20 @@ python utils.py
 
 If you use this work in your research, please cite it as described in [CITATION.md](./CITATION.md).
 
+## Author & Contact
+
+**Taher Akbari Saeed**  
+Postgraduate Student in Hematology and Blood Transfusion  
+Department of Oncology, Hematology, and Radiotherapy  
+Institute of Postgraduate Education,  
+Pirogov Russian National Research Medical University (RNRMU), Russia
+
+**Contact Information:**
+- Email: taherakbarisaeed@gmail.com
+- GitHub: [tayden1990](https://github.com/tayden1990)
+- Telegram: [@tayden2023](https://t.me/tayden2023)
+- ORCID: [0000-0002-9517-9773](https://orcid.org/0000-0002-9517-9773)
+
 ## References
 
 Please see the main document for a complete list of references.
