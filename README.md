@@ -70,6 +70,124 @@ python utils.py
 
 If you use this work in your research, please cite it as described in [CITATION.md](./CITATION.md).
 
+## Key Visualizations
+
+### Performance Comparison
+![Performance Comparison Chart](./figures/performance_comparison.png)
+*Figure 1: Performance comparison of OneFormer vs. traditional segmentation methods and SDCL vs. conventional RGB-only methods.*
+
+### Architecture Overview
+<div align="center">
+<table>
+  <tr>
+    <td><img src="./figures/oneformer_architecture.png" alt="OneFormer Architecture" width="400"/></td>
+    <td><img src="./figures/sdcl_architecture.png" alt="SDCL Architecture" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">OneFormer Architecture</td>
+    <td align="center">SDCL Architecture</td>
+  </tr>
+</table>
+</div>
+*Figure 2: High-level architecture diagrams for both analyzed approaches.*
+
+### Qualitative Results
+![Qualitative Results](./figures/qualitative_results.png)
+*Figure 3: Qualitative results showing OneFormer's segmentation and SDCL's person re-identification under challenging conditions.*
+
+## Performance Metrics
+
+### Quantitative Comparison
+
+<table>
+  <tr>
+    <th rowspan="2">Method</th>
+    <th colspan="3">Segmentation (mIoU)</th>
+    <th colspan="3">Person Re-ID (mAP%)</th>
+  </tr>
+  <tr>
+    <th>Semantic</th>
+    <th>Instance</th>
+    <th>Panoptic</th>
+    <th>Normal</th>
+    <th>Low Light</th>
+    <th>Motion Blur</th>
+  </tr>
+  <tr>
+    <td>OneFormer</td>
+    <td>57.7</td>
+    <td>48.3</td>
+    <td>49.8</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Mask2Former</td>
+    <td>56.4</td>
+    <td>47.2</td>
+    <td>48.1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>SDCL</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>85.3</td>
+    <td>78.9</td>
+    <td>76.2</td>
+  </tr>
+  <tr>
+    <td>RGB-only</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>84.7</td>
+    <td>62.1</td>
+    <td>58.4</td>
+  </tr>
+</table>
+*Table 1: Performance metrics comparing the analyzed methods with baselines across different tasks and conditions.*
+
+### Resource Efficiency
+
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Parameters (M)</th>
+    <th>FLOPs (G)</th>
+    <th>Inference Time (ms)</th>
+  </tr>
+  <tr>
+    <td>OneFormer (All tasks)</td>
+    <td>134</td>
+    <td>263</td>
+    <td>89</td>
+  </tr>
+  <tr>
+    <td>Separate Models (3 tasks)</td>
+    <td>389</td>
+    <td>795</td>
+    <td>267</td>
+  </tr>
+  <tr>
+    <td>SDCL</td>
+    <td>42</td>
+    <td>87</td>
+    <td>58</td>
+  </tr>
+  <tr>
+    <td>RGB-only</td>
+    <td>38</td>
+    <td>76</td>
+    <td>43</td>
+  </tr>
+</table>
+*Table 2: Resource efficiency comparison showing computational requirements for the analyzed methods.*
+
 ## Author & Contact
 
 **Taher Akbari Saeed**  
@@ -86,4 +204,6 @@ Pirogov Russian National Research Medical University (RNRMU), Russia
 
 ## References
 
-Please see the main document for a complete list of references.
+## References
+
+1. Taher Akbari Saeed. (2025). *Comparative Analysis of CVPR 2023 Papers*. [Download Full Document](./CVPR%20Paper%20Comparative%20Analysis_.docx)
